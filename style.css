@@ -1,0 +1,142 @@
+/* Reset document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    color: white;   
+}
+
+div, header, footer, section, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+/* Configurações */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2.5em;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#menu li a {
+    color: black;
+    padding: 0.5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    color: #f4b902;
+}
+
+#logo{
+    max-height: 6rem;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding: 8em 4.2em;
+}
+
+#inicio {
+    background-color: black;
+}
+
+#menus {
+    background-color: #1C1C1A;
+}
+
+#servicos {
+    background-color: #f4b902;
+}
+
+#sobrenos {
+    background-color: transparent;
+}
+
+#contactos {
+    background-color: #f4b902;
+}
+
+#rodape {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+    background-color: #1C1C1A;
+    font-weight: bold;
+    color: white;
+}
+
+#menuRodape li{
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 1em;
+    margin-right: 2em;
+    width: 20%;
+    height: 100%;
+    border:solid 2px #f4b902;
+    border-radius: 1em;
+    display: inline-block;
+}
+
+.imgMenu {
+    border-radius: 0.9em;
+    
+}
+
+#tituloMenu {
+    padding: 5px 10px;
+    margin-bottom: 9%;
+}
+
+#preco{
+    text-decoration: none;
+    color: #1C1C1A;
+    background-color: #f4b902;
+    border: 2px solid #f4b902;
+    margin: 4.5%;
+    padding: 10px 35%;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+#preco:hover {
+    color: #f4b902;
+    background-color: #1C1C1A;
+    font-weight: bold;
+    border: 2px solid #f4b902;
+}
+
+section h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
